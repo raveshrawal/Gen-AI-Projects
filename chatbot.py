@@ -59,7 +59,7 @@ graph = graph_builder.compile(checkpointer=memory)
 
 import streamlit as st
 
-st.title("Educosys Chatbot App")
+st.title("Chatbot App")
 
 if "messages" not in st.session_state:
     st.session_state.messages = []
